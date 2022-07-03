@@ -8,19 +8,11 @@ body {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-se1rif;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .orange-color {
     color: orange;
-}
-
-.circular_image {
-    margin: auto;
-    width: 80%;
-    height: 110%;
-    border-radius: 100%;
-    background-color: blue;
 }
 
 .text-image {
@@ -37,6 +29,7 @@ body {
 
 #image img {
     width: 100%;
+    border-radius: 100%;
 }
 
 #text {
@@ -52,3 +45,19 @@ body {
     font-weight: 700;
     color: white;
 }
+
+.lower-part {
+    margin: 100px 40px;
+    display: flex;
+}
+
+.lower-text-image {
+    width: 50%;
+    padding: 2%;
+}
+
+.lower-text-image .image-02 {
+    width: 100%;
+    border-radius: 100%;
+
+    . . .image-02 {}
