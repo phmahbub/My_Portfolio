@@ -8,11 +8,12 @@ body {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-se1rif;
-    font-size: 40px;
+    
 }
 
 .orange-color {
     color: orange;
+    font-size: 20px;
 }
 
 .text-image {
@@ -30,6 +31,7 @@ body {
 #image img {
     width: 100%;
     border-radius: 100%;
+    margin-top: 120px;
 }
 
 #text {
@@ -59,5 +61,41 @@ body {
 .lower-text-image .image-02 {
     width: 100%;
     border-radius: 100%;
-
-    . . .image-02 {}
+    margin-top: 50px;
+}
+.experience-item{
+    display: flex;
+    padding: 20px;
+}
+.experience{
+    width: 50%;
+    padding: 20px;
+    border-left: 7px solid blue ;
+    box-shadow: 20px 10px 24px;
+    border-radius: 2%;
+}
+#yellow{
+    border-left: 7px solid orange;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+#blue{
+    border-left: 7px solid rgb(38, 0, 255);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.head{
+    font-family: fantasy;
+    font-size: 40px;
+    padding-left: 25px;
+    color: coral;
+}
+.footer{
+    color: blueviolet;
+    padding-top: 100px;
+    text-align: center;
+}
+.paragraph{
+    text-align: justify;
+    font-size: 16px;
+}
